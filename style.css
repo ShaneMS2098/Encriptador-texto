@@ -99,7 +99,6 @@ body {
         color: #495057;
         margin: auto;
         text-align: center;
-        overflow-x: scroll;
         padding-top: 10%;
     }
     .copy-button {
