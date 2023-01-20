@@ -21,10 +21,11 @@ buttonEncrypt.addEventListener ('click', () => {
     //Encripta el texto y lo almacena en una variable
     let textoEncriptado1 = encriptar(minusculas);
     //Establece el texto del botón "newButton" y su clase CSS
-    newButton.textContent = "Copiar texto encriptado";
+    newButton.textContent = "Copiar texto";
     newButton.className = "copy-button";
     //Establece el contenido del elemento "newChild" como el texto desencriptado"
     newChild.textContent = textoEncriptado1;
+    newChild.className = "texto-resultado"
     //Borra el contenido del elemento "resultado" y agrega los elementos "newChild" y "newButton"
     resultado.innerHTML = '';
     resultado.appendChild(newChild);
@@ -44,10 +45,11 @@ buttonDesencrypt.addEventListener ('click', () => {
     //Desencripta el texto y lo almacena en una variable
     let textoDesencriptado1 = desencriptar(minusculas);
     //Establece el texto del botón "newButton" y su clase CSS
-    newButton.textContent = "Copiar texto encriptado";
+    newButton.textContent = "Copiar texto";
     newButton.className = "copy-button";
     //Establece el contenido del elemento "newChild" como el texto desencriptado"
     newChild.textContent = textoDesencriptado1;
+    newChild.className = "texto-resultado"
     //Borra el contenido del elemento "resultado" y agrega los elementos "newChild" y "newButton"
     resultado.innerHTML = '';
     resultado.appendChild(newChild);

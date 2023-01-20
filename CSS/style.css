@@ -1,0 +1,121 @@
+* {
+    font-family: Inter;
+}
+body {
+    background-color: #E5E5E5;
+}
+header {
+    width: 70%;
+    height: fit-content;
+}
+#logo {
+    padding: 2% 0% 2% 8%;
+}
+.encrypt-area {
+    display: flex;
+}
+#encrypt {
+    width: 50%;
+    padding: 3% auto;
+    margin: 3% auto;
+    font-size: 20px;
+    height: 20rem;
+    /* background: none;
+    border: none; */
+}
+::placeholder {
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: 500;
+}
+.resultado {
+    width: 25%;
+    margin: 3% auto;
+    text-align: center;
+    height: max-content;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    word-wrap: break-word;
+    box-shadow: 10px 10px 10px pink;
+    line-height: 25px;
+}
+.texto-resultado {
+    padding: 7%;
+}
+#toy {
+    width: 80%;
+    padding: 5% 2%;
+}
+.notfound {
+    font-weight: 700;
+}
+.copy-button {
+    border-radius: 20px;
+    padding: 3% 5%;
+    cursor: pointer;
+    margin: 5% auto;
+}
+#adver {
+    display: flex;
+    margin: 5px 0 5px 5%;
+}
+.image-advertencia {
+    width: 15px;
+    height: 15px;
+    margin: auto 1%;
+}
+#encrypt-button {
+    width: 100%;
+    height: fit-content;
+}
+.botones-encrypt {
+    width: 20%;
+    min-width: 35px;
+    padding: 2% 5%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    margin: 2% 0% 2% 7%;
+    cursor: pointer;
+}
+#bt-enc {
+    background-color: #0A3871;
+    color: white;
+}
+
+@media screen and (max-width: 847px){
+    #logo {
+        padding: 2% 0% 2% 13%;;
+    }
+    .encrypt-area {
+        display: block;
+        width: 90%;
+        height: max-content;
+        margin: 2% auto;
+    }
+    #encrypt {
+        width: 90%;
+        height: 16rem;
+        margin: 2% 5%;
+    }
+    #toy {
+        display: none;
+    }
+    .resultado {
+        width: 80%;
+    }
+    .texto-resultado {
+        padding: 7%;
+    }
+    #adver {
+        margin: 5% 0% 5% 8.5%;
+    }
+    #encrypt-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .botones-encrypt {
+        width: 30%;
+    }
+}
