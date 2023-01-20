@@ -14,6 +14,10 @@ const newButton = document.createElement('button');
  * para encriptar el texto del input
  */
 buttonEncrypt.addEventListener ('click', () => {
+    if(input.value === ""){
+        alert("Por favor ingresa un texto a encriptar");
+        return;
+    }
     //obtiene el valor del input
     let textoObtenido = input.value;
     //convierte el texto a minúsculas
@@ -38,6 +42,10 @@ buttonEncrypt.addEventListener ('click', () => {
  * para desencriptar el texto del input
  */
 buttonDesencrypt.addEventListener ('click', () => {
+    if(input.value === ""){
+        alert("Por favor ingresa un texto a desencriptar");
+        return;
+    }
     //obtiene el valor del input
     let textoObtenido = input.value;
     //convierte el texto a minúsculas
